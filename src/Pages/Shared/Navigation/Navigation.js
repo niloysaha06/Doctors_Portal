@@ -28,10 +28,9 @@ const Navigation = () => {
           <Link to="/appointment">
             <Button color="inherit">Appointment</Button>
           </Link>
-          {/* <NavLink to="/appointment">
-          <Button color="inherit">Appointment</Button>
-          </NavLink> */}
+          <NavLink to="/login">
           <Button color="inherit">Login</Button>
+          </NavLink>
           
         </Toolbar>
       </AppBar>
